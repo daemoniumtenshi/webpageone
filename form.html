@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>A basic form</title>
+    </head>
+
+    <body>
+        <div class="nav">
+            <a class="active" href="form.html">A form</a>
+            <a href="index.html">Home</a>
+            <a href="list.html">Lists</a>
+            <a href="image.html">Images</a>
+        </div>
+
+        <form action="/form-handling-url" method="post">
+            <fieldset>
+                <legend>Are you cool?</legend>
+
+                <div>
+                    <label for="video-game">Best video game</label>
+                    <input type="text" id="video-game" name="video-game">
+                </div>
+
+                <div>
+                    <label for="ubisoft">Favorite ubisoft series</label>
+                    <input tyoe="text" id="ubisoft" name="ubisoft-fave">
+                </div>
+
+                <div>
+                    <label for="concur">Ubisoft isn't that bad</label>
+                    <input type="checkbox" id="concur" name="its-not">
+                </div>
+
+                <div>
+                    <label for="final">Piece de resistance</label>
+                    <select  id="final" name="final-piece">
+                    <option value="God of war">God of war(2018)</option>
+                    <option value="Red dead redemption 2">Red dead redemption 2</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="reason">Reason for the above answer?</label>
+                    <textarea id="reason" name="reason" rows="4" cols="50">
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
