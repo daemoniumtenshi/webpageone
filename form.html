@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>A basic form</title>
+        <link href="page1.css" rel="stylesheet">
     </head>
 
     <body>
@@ -13,27 +14,31 @@
             <a href="image.html">Images</a>
         </div>
 
+
+       <div class="space">
         <form action="/form-handling-url" method="post">
             <fieldset>
-                <legend>Are you cool?</legend>
+                <legend>Are you cool? Let's find out.</legend>
 
                 <div>
-                    <label for="video-game">Best video game</label>
+                    <label for="video-game">Best video game:</label>
                     <input type="text" id="video-game" name="video-game">
                 </div>
 
                 <div>
-                    <label for="ubisoft">Favorite ubisoft series</label>
+                    <label for="ubisoft">Favorite ubisoft series:</label>
                     <input tyoe="text" id="ubisoft" name="ubisoft-fave">
                 </div>
 
                 <div>
-                    <label for="concur">Ubisoft isn't that bad</label>
+                    <label for="concur">Ubisoft isn't that bad:</label>
+                    <div id="inlines">
                     <input type="checkbox" id="concur" name="its-not">
+                    </div>
                 </div>
 
                 <div>
-                    <label for="final">Piece de resistance</label>
+                    <label for="final">Piece de resistance:</label>
                     <select  id="final" name="final-piece">
                     <option value="God of war">God of war(2018)</option>
                     <option value="Red dead redemption 2">Red dead redemption 2</option>
@@ -42,7 +47,7 @@
 
                 <div>
                     <label for="reason">Reason for the above answer?</label>
-                    <textarea id="reason" name="reason" rows="4" cols="50">
+                    <textarea id="reason" name="reason" rows="4" cols="50"></textarea>
                 </div>
 
                 <div>
@@ -51,5 +56,6 @@
 
             </fieldset>
         </form>
+       </div>
     </body>
 </html>

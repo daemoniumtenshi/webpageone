@@ -1,0 +1,122 @@
+@media screen and (min-width: 1500px) {
+
+    body {
+        background-color: black
+    }
+    .nav {
+        background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        overflow: hidden;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 40px;
+
+
+     }
+
+     h1 {
+        color: white;
+     }
+
+     p {
+        color: white;
+     }
+
+     .nav a {
+         float: left;
+         text-align: center;
+         padding: 10px 15px;
+         text-decoration: none;
+         color: aquamarine
+     }
+
+     .nav a:hover {
+         background-color: azure;
+         color: lawngreen;
+     }
+
+     .nav a.active {
+         background-color: dimgray;
+         color: white;
+     }
+
+
+     #dmc1, #dmc2, #dmc3 {
+        width: 100%;
+        height: auto
+     }
+
+      .first {
+        display: table-cell;
+        vertical-align: auto;
+      }
+
+      #dmc4, #dmc5 {
+        width: 600px;
+        height: 400px;
+        margin: 0px 5px
+      }
+
+      .second {
+        display: flex;
+      }
+
+
+     }
+
+
+
+@media (max-width: 1499px) {
+
+    body {
+        width: auto;
+        background-color: black
+    }
+
+   .nav {
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow: hidden;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+
+ }
+
+ .nav a {
+     float: left;
+     text-align: center;
+     padding: 10px 15px;
+     text-decoration: none;
+     color: aquamarine
+ }
+
+ .nav a:hover {
+     background-color: azure;
+     color: lawngreen;
+ }
+
+ .nav a.active {
+     background-color: dimgray;
+     color: white;
+ }
+
+
+ h1 {
+    color: white;
+ }
+
+ p {
+    color: white;
+ }
+
+
+ #dmc1, #dmc2, #dmc3 {
+    width: 100%;
+ }
+
+  #dmc4, #dmc5 {
+    width: 100%;s
+    margin: 0px 5px
+  }
+
+
+
+
+}
